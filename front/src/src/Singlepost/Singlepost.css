@@ -1,0 +1,106 @@
+.SinglePost{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.singlepostimg{
+    width: 90%;
+    max-height: 80vh;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.singlepostinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.singlePostTitle{
+    font-family: Varela;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: rgb(53, 53, 53);
+}
+.singlePostTitleinput{
+    font-family: Varela;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    color: rgb(126, 126, 126);
+}
+.editsection{
+    width: 90%;
+    margin-top: 10px;
+    height: 0;
+}
+.editsection .fa-trash-can{
+    color: tomato;
+}
+.editsection .fa-pen-to-square{
+    color: teal;
+}
+.editsection i{
+    float: right;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.authdate{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin-bottom: 5px;
+}
+.singleposttime, .athr{
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+}
+
+.singlepostinfo .postDescP{
+    width: 90%;
+    margin-top: 5px;
+    color: rgb(56, 56, 56);
+    margin-bottom: 20px;
+}
+.postDescPinput{
+    width: 90%;
+    margin-top: 5px;
+    color: rgb(56, 56, 56);
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    height: 300px;
+}
+.singlepostinfo .postDescP::first-letter{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.postupdatebtn{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.postupdatebtn:hover{
+    background-color: rgb(22, 104, 104);
+}
+.noneclass{
+    display: none;
+}

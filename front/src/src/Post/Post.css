@@ -1,0 +1,43 @@
+.PostContain{
+    padding: 10px;
+    width: 40%;
+    margin-right: 30px;
+}
+.postimg{
+    width: 100%;
+    border-radius: 20px;
+}
+.postinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.postCats{
+    display: flex;
+    margin-bottom: 5px;
+}
+.PostCat, .posttime{
+    margin-left: 8px;
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+}
+
+.PostTitle{
+    font-family: Varela;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.postinfo p{
+    font-size: 13px;
+    font-family: Varela;
+    margin-top: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: rgb(63, 63, 63);
+}

@@ -1,0 +1,29 @@
+.header{
+    position: relative;
+    margin-top: 70px;
+}
+.headerTitle{
+    display: flex;
+    position: absolute;
+    top: -65px;
+    left: 47%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.smtitle{
+    font-family: 'Lora', serif;
+    color: rgb(44, 44, 44);
+}
+.lgtitle{
+    font-size: 60px;
+    font-family: 'Lora', serif;
+    color: rgb(44, 44, 44);
+}
+
+.header img{
+    width: 100%;
+    z-index: -1;
+    filter: opacity(0.75);
+}
