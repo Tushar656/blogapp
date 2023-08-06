@@ -12,9 +12,9 @@ const postRoute = require("./routes/posts");
 const catRoute = require("./routes/cat");
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/blogapp')
+mongoose.connect('mongodb://0.0.0.0:27017/blogapp')
 .then(console.log("Connection successfull"))
-.catch((err) => console.log("Not connected to mongodb"));
+.catch((err) => console.log("Not connected to mongodb" + err));
 
 app.use('/api/auth', authRoute);
 app.use('/api/user', userRoute);

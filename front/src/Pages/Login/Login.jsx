@@ -28,7 +28,7 @@ export default function Login() {
         <form className="loginform" onSubmit={submitHendlar}>
             <label>Email</label>    
             <input type="text" placeholder='Enter Your Email...' ref={emailref}/>
-            <label>Password</label>    
+            <label>Password</label>
             <input type="text" placeholder='Enter Your Password...' ref={passwordref}/>
             <button className="lgnbtn" type='submit' disabled={isFetching}>Login</button>
             <button className="lgnregbtn">
